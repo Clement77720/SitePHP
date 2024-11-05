@@ -1,0 +1,20 @@
+section.list
+{
+	display : flex;
+	justify-content : space-between;
+	flex-wrap:wrap;
+}
+section.list > div 
+{
+width : 30%;
+}
+section.list img {
+	display:inline-block;
+
+}
+.short-text {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
